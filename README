@@ -1,0 +1,41 @@
+# 🚀 Weaviate Enablement Sessions
+
+Hands-on Jupyter notebooks demonstrating new features and best practices for each Weaviate release. Each notebook contains practical examples, code snippets, and migration guides to help you get the most out of Weaviate's latest capabilities.
+
+## 📚 Available Sessions
+
+- **[Weaviate 1.33 Enablement](1_33/1_33_enablement.ipynb)** - Compression by default, collection aliases (GA), server-side batching, OIDC groups, and new filter operators
+- **[Weaviate 1.32 Enablement](1_32/1_32_enablement.ipynb)** - Collection aliases, replica movement, rotational quantization and more. 
+
+## 🚀 Quick Start
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-org/weaviate-enablement-sessions.git
+cd weaviate-enablement-sessions
+```
+
+2. Install dependencies (depends on the specific release and notebook):
+
+```bash
+pip install -U weaviate-client jupyter
+```
+
+3. Open the notebook for your version:
+
+```bash
+jupyter notebook 1_33/1_33_enablement.ipynb
+```
+
+## 📋 Requirements
+
+- Python 3.8+
+- Weaviate instance (local or cloud)
+- Appropriate Weaviate Python client ([versions](https://docs.weaviate.io/weaviate/release-notes#weaviate-database-and-client-releases))
+
+## 📖 Additional Resources
+
+- [Weaviate Documentation](https://docs.weaviate.io/)
+- [Weaviate Cloud Console](https://console.weaviate.cloud)
+- [Community Forum](https://forum.weaviate.io)
